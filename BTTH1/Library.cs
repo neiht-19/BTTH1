@@ -12,14 +12,14 @@ namespace MultiExerciseProject
             {
                 Console.Clear();
                 Console.WriteLine("=== MENU CHỌN BÀI ===");
-                Console.WriteLine("1. Bài 1: Kiểm tra ngày hợp lệ");
-                Console.WriteLine("2. Bài 2: Tìm thứ trong tuần");
-                Console.WriteLine("3. Bài 3: Xử lý mảng số nguyên");
-                Console.WriteLine("4. Bài 4: Tính tổng các số nguyên tố nhỏ hơn n");
-                Console.WriteLine("5. Bài 5: Tính số ngày trong tháng");
-                Console.WriteLine("6. Bài 6: Xử lý ma trận");
+                Console.WriteLine("1. Bài 1: ");
+                Console.WriteLine("2. Bài 2: ");
+                Console.WriteLine("3. Bài 3: ");
+                Console.WriteLine("4. Bài 4: ");
+                Console.WriteLine("5. Bài 5: ");
+                Console.WriteLine("6. Bài 6: ");
                 Console.WriteLine("0. Thoát");
-                Console.Write("Nhập lựa chọn của bạn: ");
+                Console.Write("Nhập lựa chọn: ");
 
                 string choice = Console.ReadLine();
                 Console.WriteLine();
@@ -33,14 +33,13 @@ namespace MultiExerciseProject
                     case "5": Bai5(); break;
                     case "6": Bai6(); break;
                     case "0":
-                        Console.WriteLine("Tạm biệt!");
+                        Console.WriteLine("Wrong!");
                         return;
                     default:
-                        Console.WriteLine("Lựa chọn không hợp lệ, mời nhập lại!");
+                        Console.WriteLine("Lựa chọn không hợp lệ");
                         break;
                 }
 
-                Console.WriteLine("\nNhấn phím bất kỳ để quay lại menu...");
                 Console.ReadKey();
             }
         }
